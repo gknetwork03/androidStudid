@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Alcool</string>
+    <string name="Button">idVerificar</string>
+
 </resources>

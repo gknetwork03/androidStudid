@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
     float Alcool = 0;
     float x = 0;
 
+    String Butao ;
+
 
     EditText idGasolina,idAlcool;
     TextView idResultado ;
@@ -27,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         idGasolina = (EditText)  findViewById(R.id.idGasolina);
         idAlcool = (EditText)  findViewById(R.id.idAlcool);
         idResultado = (TextView) findViewById(R.id.idResultado);
-        idVerificar = (Button) findViewById(R.id.idVerificar);
+
 
         idVerificar.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View idVerificar) {
+            public void onClick(View view) {
                 Alcool = Float.parseFloat(idAlcool.getText().toString());
                 Gasolina = Float.parseFloat(idGasolina.getText().toString());
 
