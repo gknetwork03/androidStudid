@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
                    x = Alcool / Gasolina;
 
                   if(x <= 0.7){
-                      idResultado.setText(" Melhor opção Alcool");
+                      idResultado.setText(" Melhor opção Álcool");
 
                   }else {
-                      idResultado.setText("Melhor opção gasolina");
+                      idResultado.setText("Melhor opção Gasolina");
                   }
             }
         });
